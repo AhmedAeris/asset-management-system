@@ -1,0 +1,102 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+/* Left Panel */
+.login-panel {
+  flex: 1;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.logo-wrapper img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.title-wrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 400px;
+}
+
+.input-field {
+  margin-bottom: 15px;
+}
+
+.email-field, .password-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.options-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.options-wrapper .reset-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.options-wrapper .reset-link:hover {
+  text-decoration: underline;
+}
+
+.remember-me-checkbox {
+  margin-right: 5px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Right Panel */
+.image-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.image-panel img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
